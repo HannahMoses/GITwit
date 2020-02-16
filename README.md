@@ -1,1 +1,3 @@
 # GITwit
+Contains git hints
+
