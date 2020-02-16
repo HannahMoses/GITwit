@@ -1,3 +1,3 @@
 # GITwit
-Contains git hints
+Contains git hints I sorted.
 
