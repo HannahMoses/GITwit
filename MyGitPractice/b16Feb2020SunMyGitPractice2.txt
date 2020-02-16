@@ -53,5 +53,43 @@ Fast-forward
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/GITwit (master)
+$  git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MyGitPractice/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/GITwit (master)
+$ git add .
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/GITwit (master)
+$ git commit -m "added folder MyGitPractice in local repo"
+[master c016468] added folder MyGitPractice in local repo
+ 1 file changed, 57 insertions(+)
+ create mode 100644 MyGitPractice/b16Feb2020SunMyGitPractice2.txt
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/GITwit (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1014 bytes | 253.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/HannahMoses/GITwit.git
+   9489a03..c016468  master -> master
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/GITwit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/GITwit (master)
 $
 
