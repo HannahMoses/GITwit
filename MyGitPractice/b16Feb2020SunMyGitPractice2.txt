@@ -91,5 +91,19 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
 
 h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/GITwit (master)
+$ git pull
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 1.20 KiB | 4.00 KiB/s, done.
+From https://github.com/HannahMoses/GITwit
+   c016468..083f1e6  master     -> origin/master
+Updating c016468..083f1e6
+Fast-forward
+ MyGitPractice/b16Feb2020SunMyGitPractice2.txt | 38 +++++++++++++++++++++++++++
+ 1 file changed, 38 insertions(+)
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/GITwit (master)
 $
 
