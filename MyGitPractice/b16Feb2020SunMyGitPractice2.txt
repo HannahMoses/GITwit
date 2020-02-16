@@ -1,0 +1,57 @@
+b16Feb2020SunMyGitPractice2
+
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~
+$ cd IdeaProjects
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects (master)
+$ dir
+CoreJava     Hannah2020JavaBatch32     HelloWorld
+Development  HannahJavaBatch32Jan2020
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects (master)
+$ git clone https://github.com/HannahMoses/GITwit.git
+Cloning into 'GITwit'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), 1.44 KiB | 1024 bytes/s, done.
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects (master)
+$ dir
+CoreJava     GITwit                 HannahJavaBatch32Jan2020
+Development  Hannah2020JavaBatch32  HelloWorld
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects (master)
+$ cd GITwit
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/GITwit (master)
+$ dir
+README.md
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/GITwit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/GITwit (master)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 704 bytes | 1024 bytes/s, done.
+From https://github.com/HannahMoses/GITwit
+   3fab477..9489a03  master      -> origin/master
+ * [new branch]      ImpGitHints -> origin/ImpGitHints
+Updating 3fab477..9489a03
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/GITwit (master)
+$
+
